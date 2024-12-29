@@ -1,0 +1,1 @@
+Welcome to the Basic Java Project repository! This project is designed to demonstrate the fundamental concepts of Java programming. It includes examples and implementations of core Java features such as object-oriented programming (OOP), file handling, collections, exception handling, and more.
