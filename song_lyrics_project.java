@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 class valentine extends Thread{
     public void run (){
+        //lyrics
         String[] lyrics= {
                 "I need a lover to keep me sane\n" +
                         "Pull me from hell, bring me back again\n" +
@@ -63,6 +64,7 @@ class valentine extends Thread{
         }
 
     }
+    //method print the words line by line with delay
     private void printWithDelay(String s){
        String[] words = s.split(" ");
        for(String word:words){
@@ -70,6 +72,7 @@ class valentine extends Thread{
            delay(640);
        }
     }
+    //method delay
     private void delay (long milliSec){
         try{
             Thread.sleep(milliSec);
@@ -79,13 +82,13 @@ class valentine extends Thread{
         }
     }
 }
-
+//main class
 public class song {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         valentine song = new valentine();
-        song.start();
-
+        song.start(); //thread start
+        song.interrupt();
     }
 }
 
