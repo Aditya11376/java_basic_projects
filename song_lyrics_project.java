@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class for_shital extends Thread{
+class valentine extends Thread{
     public void run (){
         String[] lyrics= {
                 "I need a lover to keep me sane\n" +
@@ -83,7 +83,7 @@ class for_shital extends Thread{
 public class song {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-        for_shital song = new for_shital();
+        valentine song = new valentine();
         song.start();
 
     }
