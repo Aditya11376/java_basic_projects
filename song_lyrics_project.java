@@ -88,7 +88,7 @@ public class song {
         Scanner sc = new Scanner (System.in);
         valentine song = new valentine();
         song.start(); //thread start
-        song.interrupt();
+     
     }
 }
 
